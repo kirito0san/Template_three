@@ -1262,14 +1262,21 @@ s .f-box a {
 }
 .latest-events .l-timer {
   gap: 10px;
+  width: 300px;
+  height: 100px;
 }
 .latest-events .l-emt {
   border-bottom: 1px solid;
-  padding: 20px 31px;
+  padding: 0 0 10px 0;
+
   transition: 0.2s;
   color: var(--main-color);
   font-weight: 900;
   font-size: var(--big-font);
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .latest-events img {
   max-width: 450px;
@@ -1283,6 +1290,7 @@ s .f-box a {
   display: flex;
   flex-direction: column;
   padding: 10px 0;
+  width: 25%;
   border-radius: 5px;
   transition: 0.2s;
 }
