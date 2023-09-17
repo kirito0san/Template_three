@@ -403,7 +403,6 @@ header .container > ul > li > a:hover {
 .articles .container {
   align-items: center;
 }
-
 .main-h2 {
   margin: 150px auto;
   width: fit-content;
@@ -429,7 +428,7 @@ header .container > ul > li > a:hover {
 @keyframes main3 {
   to {
     color: var(--main-color-2);
-    border: 0;
+    border-color: var(--main-color-2);
   }
 }
 
@@ -1167,8 +1166,7 @@ s .f-box a {
 .how-it-works .a-container {
   gap: 30px;
 }
-.how-it-works .a-container {
-}
+
 .how-it-works .a-container .h-parent-box {
   width: 50%;
   gap: 30px;
@@ -1258,10 +1256,6 @@ s .f-box a {
   right: 0;
   z-index: -5;
 }
-.latest-events .a-container {
-}
-.latest-events .l-event {
-}
 .latest-events .l-parent-timer {
   text-align: center;
   gap: 30px;
@@ -1318,7 +1312,7 @@ s .f-box a {
   opacity: 0;
 }
 .latest-events form input[type="email"]::placeholder {
-transition: .3s;
+  transition: 0.3s;
 }
 
 .latest-events form input[type="submit"] {
@@ -1541,9 +1535,6 @@ transition: .3s;
 /*  services  */
 
 /* top-videos */
-
-.top-videos {
-}
 .top-videos .a-container {
   background-color: var(--main-color-background-2);
   padding: 2px;
@@ -1567,8 +1558,7 @@ transition: .3s;
 .top-videos .a-container .play-lest > p:nth-of-type(1) {
   transition: 0.3s;
 }
-.top-videos .a-container .play-lest > p:nth-of-type(2) {
-}
+
 .top-videos .a-container .t-top-img {
   align-items: center;
   justify-content: space-between;
@@ -1626,7 +1616,7 @@ transition: .3s;
   position: relative;
   z-index: 4;
   align-items: center;
-
+  padding-top: 31px;
   padding-bottom: 40px;
 }
 .Our-Awesome-Stats .a-container i {
@@ -1727,6 +1717,7 @@ transition: .3s;
   position: relative;
   gap: 50px;
   z-index: 2;
+  padding: 100px 0;
   & img {
     max-width: 100%;
   }
@@ -1759,7 +1750,7 @@ transition: .3s;
     font-size: var(--big-font-3);
   }
   & form {
-    width: 60%;
+    width: 330px;
     gap: 30px;
     & input {
       border: 0;
@@ -1956,11 +1947,8 @@ footer .a-container {
     color: var(--main-color-2);
   }
 }
-
 @media (max-width: 443px) {
-.d-box-two  form {
-	width: 90% !important;
-
+  .d-box-two form {
+    width: 90% !important;
+  }
 }
-}
-
