@@ -138,11 +138,12 @@ header .container > ul > li > a:hover {
 .other-links {
   display: none;
   position: absolute;
-  top: 104%;
+  top: 100%;
   width: 100%;
   z-index: 12;
   left: 0;
   grid-template-columns: 40% 51%;
+  border-top: 1px solid var(--main-color-background-2);
   justify-content: space-between;
   border-bottom: 2px solid var(--main-color-background);
   background-color: var(--main-color-2);
